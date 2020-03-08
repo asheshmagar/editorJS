@@ -1,26 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
 #upload{
     text-align: center;
-    background:  lightblue;
+    background:  rgb(102, 136, 230);;
     border-radius: 10px;
+    box-shadow: 0 5px #999;
+    font-family: 'Great Vibes', cursive;
+    font-size: large;
+
+
 
 }
 input{
     margin: 2em 0;
+    box-shadow: 0 5px #999;
+    font-family: 'Great Vibes', cursive;
+    font-size: large;
+
+    
+    
 }
 #buttons{
     display: flex;
     justify-content: space-evenly;
     margin: 2em 0;
-    border: 1px solid lightblue;
+    border: 1px solid rgb(102, 136, 230);;
     border-radius: 10px;
     padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 5px #999;
+
+
+
 }
 button{
-    background: lightblue;
-    border-radius: 10px;
+    background: rgb(102, 136, 230);
+    border-radius: 15px;
     width: 10em;
     padding: 10px;
+    box-shadow: 0 9px #999;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    font-size: 20px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: bold;
+
+
+
+
 }
+button:hover {background-color: #5ca3e6}
+
+button:active {
+  background-color: #3e5a8e;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+button
 canvas{
     max-width: 100%;
 }
+
